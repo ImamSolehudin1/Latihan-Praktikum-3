@@ -238,4 +238,4 @@ header('location: index.php');
 
 ```
 
-![gambar](pic/hapus_data.png)
+![gambar](pic/Hapus_data.png)
