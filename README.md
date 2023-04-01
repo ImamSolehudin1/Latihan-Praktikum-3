@@ -116,6 +116,9 @@ if (isset($_POST['submit']))
 
 4. Mengubah data 
 
+Untuk mengubah data, pada saat mengakses linknya kita tambahkan ?id=(no_id). Contoh : localhost/latihan1/hapus.php?id=1 .
+Maka kita akan diarahkan untuk mengubah data id nomor 1.
+
 ```php
 
 <?php
@@ -238,4 +241,5 @@ header('location: index.php');
 
 ```
 
-![gambar](pic/Hapus_data.png)
+Untuk menghapus data, pada saat mengakses linknya kita tambahkan ?id=(no_id). Contoh : localhost/latihan1/hapus.php?id=1 .
+Maka secara otomatis id nomor 1 akan terhapus.
